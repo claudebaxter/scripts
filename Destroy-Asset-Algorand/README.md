@@ -1,6 +1,6 @@
 To use this script, you must install Python and Algosdk first.
 
-# Remember that you can only delete an asset with its creator wallet, and the creator wallet must hold the entire supply for this transaction to work.
+### Remember that you can only delete an asset with its creator wallet, and the creator wallet must hold the entire supply for this transaction to work.
 
 Then, read through remove_asset.py, and you will see the comments where you need to enter your Purestake API key and Purestake API URL (make sure you choose testnet or mainnet accordingly).
 
@@ -10,4 +10,4 @@ Once everything is installed and these variables are assigned, open a terminal i
 
 ```python3 remove_asset.py```
 
-## Remember to make sure you are on testnet and to doublecheck all address, mnemonic, and asset numbers to make sure you don't run this script on the wrong thing.
+# Remember to make sure you are on testnet and to doublecheck all address, mnemonic, and asset numbers to make sure you don't run this script on the wrong thing.
